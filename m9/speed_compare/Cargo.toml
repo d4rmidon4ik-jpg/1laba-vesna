@@ -1,0 +1,11 @@
+[package]
+name = "speed_compare"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+name = "speed_compare"
+
+[dependencies]
+pyo3 = { version = "0.23.3", features = ["extension-module"] }
